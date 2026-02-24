@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Montserrat',sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:#e2e8f0;
+    line-height:1.6;
+}
+
+/* HEADER */
+header{
+    background:linear-gradient(90deg,#14b8a6,#0ea5e9);
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+/* NAV */
+nav{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+    padding:15px;
+    background:#1e293b;
+}
+
+nav a{
+    text-decoration:none;
+    color:#e2e8f0;
+    font-weight:600;
+}
+
+nav a:hover{
+    color:#14b8a6;
+}
+
+/* SECTIONS */
+section{
+    padding:60px 20px;
+}
+
+/* HEADINGS */
+h2{
+    margin-bottom:25px;
+    color:#14b8a6;
+}
+
+/* SKILLS */
+.skill-box{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.skill-box div{
+    flex:1 1 120px;
+    text-align:center;
+    padding:12px;
+    background:#1e293b;
+    border-radius:6px;
+    border:1px solid #14b8a6;
+    transition:0.3s;
+}
+
+.skill-box div:hover{
+    transform:translateY(-5px);
+    background:#14b8a6;
+    color:#0f172a;
+}
+
+/* PROJECTS */
+.project-container{
+    display:flex;
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+.project-card{
+    flex:1 1 300px;
+    background:#1e293b;
+    padding:25px;
+    border-radius:10px;
+    border-left:5px solid #14b8a6;
+    transition:0.3s ease;
+}
+
+.project-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 8px 20px rgba(0,0,0,0.4);
+}
+
+/* CONTACT */
+#contact{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:20px;
+    background:#1e293b;
+    margin-top:40px;
+}
+
+/* DESKTOP */
+@media(min-width:768px){
+
+    section{
+        padding:80px 12%;
+    }
+
+}
