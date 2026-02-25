@@ -49,11 +49,10 @@ body{
 .image img{
     width:250px;
     height:250px;
-    border-radius:10%;
+    border-radius:50%;
     object-fit:cover;
     object-position:top;
     border:6px solid #22d3ee;
-    object-fit:cover;
 }
 
 .para,.head{
